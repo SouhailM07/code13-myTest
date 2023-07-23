@@ -1,0 +1,12 @@
+#Intro {
+  width: 40%;
+  height: 21rem;
+}
+#Intro h1 {
+  word-spacing: -16px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+#Intro p {
+  font-size: 1.2rem;
+}

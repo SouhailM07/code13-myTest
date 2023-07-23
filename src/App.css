@@ -1,0 +1,14 @@
+html {
+  font-size: 62.5%;
+  font-family: "Roboto";
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  background-image: url("./assets/images/bg-intro-desktop.png");
+  height: 100vh;
+}

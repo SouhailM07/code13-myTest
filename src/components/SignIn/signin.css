@@ -1,0 +1,61 @@
+#SignIn {
+  height: 36rem;
+  width: 40%;
+}
+#SignIn button {
+  margin-bottom: 20px;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0px 7px 0px 0px rgba(63, 63, 60, 0.3);
+  font-size: 1.2rem;
+  color: white;
+}
+#SignIn button span {
+  font-weight: 700;
+}
+
+#inputField {
+  background-color: white;
+  height: 35rem;
+}
+#inputField input {
+  width: 100%;
+  display: block;
+  margin: 10px 0px;
+  border: 1.8px solid gray;
+  outline: none;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  text-indent: 25px;
+  border-radius: 7px;
+}
+#inputField input[type=submit] {
+  background-color: hsl(154, 59%, 51%);
+  width: 80%;
+  text-indent: 0px;
+  color: white;
+  font-weight: 600;
+  word-spacing: 3px;
+  box-shadow: 0px 2px 8px 0px black;
+  border: none;
+  cursor: pointer;
+}
+
+#footer {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer .errorMsg {
+  color: hsl(0, 100%, 74%);
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
+
+a {
+  color: hsl(0, 100%, 74%);
+  margin-left: 4px;
+}

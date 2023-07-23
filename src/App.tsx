@@ -1,7 +1,16 @@
+// tailwind
+import "./style/input.css";
+import "./App.css";
+// components
+import { Intro, SignIn } from "./components";
+
 function App() {
   return (
     <>
-      <div>sb</div>
+      <main className="bg-red-400 flex items-center justify-evenly">
+        <Intro />
+        <SignIn />
+      </main>
     </>
   );
 }
