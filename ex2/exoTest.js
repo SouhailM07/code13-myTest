@@ -48,7 +48,7 @@ const products = [
     description: "Huawei Honor",
     price: 200,
     ratings: [
-      // { userId: "fg12cy", rate: 5 },
+      { userId: "fg12cy", rate: 5 },
       { userId: "zwf8md", rate: 4.5 },
       { userId: "Afaf", rate: 2 },
     ],
